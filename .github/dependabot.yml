@@ -2,6 +2,9 @@ version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/"
+    commit-message:
+      prefix: "fix"
+      prefix-development: "chore"
     schedule:
       interval: "daily"
       time: "10:00"
